@@ -1,5 +1,5 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, location) {
-    game.over(true)
+    game.over(true, effects.confetti)
 })
 let mySprite = sprites.create(img`
     . . . . . f f 4 4 f f . . . . . 
